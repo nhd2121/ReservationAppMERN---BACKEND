@@ -1,5 +1,11 @@
 import express, { Router } from "express";
-import { createHotel, deleteHotel, getHotel, getHotels, updateHotel } from "../controllers/hotel.js";
+import {
+  createHotel,
+  deleteHotel,
+  getHotel,
+  getHotels,
+  updateHotel,
+} from "../controllers/hotel.js";
 import Hotel from "../models/Hotel.js";
 import { createError } from "../ultis/error.js";
 
